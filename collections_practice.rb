@@ -52,4 +52,5 @@ def add_s(array)
   x << "s"
   end
   array[1].chop!
+  array
 end

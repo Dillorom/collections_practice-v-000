@@ -50,6 +50,6 @@ end
 def add_s(array)
   array.each do |x|
   x << "s"
-  array[1].chomp
+  array[1].chomp!
   end
 end

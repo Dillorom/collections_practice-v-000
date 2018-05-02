@@ -50,6 +50,6 @@ end
 def add_s(array)
   array.each do |x|
   x << "s"
-  array[1[last]].delete
+  array[1.length-1].delete
   end
 end

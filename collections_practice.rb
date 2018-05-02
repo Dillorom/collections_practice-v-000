@@ -38,6 +38,6 @@ end
 
 def find_a(array)
   result = array.select do |x|
-    x.first = "a"
+    x.first == "a"
   end
 end

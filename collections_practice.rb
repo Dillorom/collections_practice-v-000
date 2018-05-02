@@ -50,7 +50,6 @@ end
 def add_s(array)
   array.each do |x|
   x << "s"
-  x.t_a
-  array[1] ==> "s"
   end
+  array[1].chop!
 end

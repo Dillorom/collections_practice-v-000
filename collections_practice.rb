@@ -42,6 +42,14 @@ def find_a(array)
   end
 end
 
+#advanced with #inject
 def sum_array(array)
   array.inject(0){|sum,x| sum + x }
+end
+
+def add_a(array)
+  array.each do |x|
+    x.join("s")
+  end
+  result = array[1].delete("s")
 end

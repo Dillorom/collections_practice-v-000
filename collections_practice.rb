@@ -49,7 +49,6 @@ end
 
 def add_s(array)
   array.each do |x|
-  x << "s"
+  x << "s", x[1].delete("s")
   end
-
 end

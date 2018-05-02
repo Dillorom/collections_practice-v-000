@@ -36,8 +36,8 @@ def kesha_maker(array)
     end
 end
 
-def find_all(array)
+def find_a(array)
   result = array.select do |x|
-    x[0] = "a"
+    x.first = "a"
   end
 end

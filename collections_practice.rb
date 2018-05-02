@@ -50,6 +50,7 @@ end
 def add_s(array)
   array.each do |x|
     x.last.push("s")
+    binding.pry
   end
   result = array[1].delete("s")
 end

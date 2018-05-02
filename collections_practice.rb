@@ -49,8 +49,7 @@ end
 
 def add_s(array)
   array.each do |x|
-    x.last.push("s")
-    binding.pry
+  x << "s"
   end
-  result = array[1].delete("s")
+
 end

@@ -35,3 +35,9 @@ def kesha_maker(array)
     x[2] = "$"
     end
 end
+
+def find_all(array)
+  result = array.select do |x|
+    x.first = "a"
+  end
+end

@@ -38,6 +38,6 @@ end
 
 def find_all(array)
   result = array.select do |x|
-    x.first = "a"
+    x[0] = "a"
   end
 end

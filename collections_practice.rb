@@ -43,6 +43,6 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum = array.each {|x| x + x}
+  sum = array.each {|x| "x + x"}
   return sum
 end
